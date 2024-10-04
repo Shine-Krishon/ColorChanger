@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Playwrite;
+  src: url(./assets/fonts/PlaywriteMX-VariableFont_wght.ttf);
+}
+
+#body {
+  font-family: Playwrite;
+}
+
+.content {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.color-container {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  width: 80px;
+  padding: 12px;
+}
+
+.color {
+  width: 50px;
+  height: 50px;
+  box-shadow: inset 0 3px 10px;
+  border-radius: 100px;
+  margin-top: 15px;
+  transition: all 0.3s ease;
+}
+
+.color:hover {
+  transform: translateX(-5px);
+  cursor: pointer;
+}
